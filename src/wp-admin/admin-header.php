@@ -310,6 +310,6 @@ if ( is_network_admin() ) {
  */
 do_action( 'all_admin_notices' );
 
-if ( 'options-general.php' === $parent_file ) {
+/* if ( 'options-general.php' === $parent_file ) {
 	require ABSPATH . 'wp-admin/options-head.php';
-}
+*/

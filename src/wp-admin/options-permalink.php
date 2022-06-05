@@ -207,6 +207,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 ?>
 <div class="wrap">
 <h1><?php echo esc_html( $title ); ?></h1>
+<?php require ABSPATH . 'wp-admin/options-head.php'; ?>
 
 <form name="form" action="options-permalink.php" method="post">
 <?php wp_nonce_field( 'update-permalink' ); ?>
